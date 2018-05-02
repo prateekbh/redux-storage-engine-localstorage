@@ -6,8 +6,8 @@ const idb = function idb(store) {
             return idbKeyVal.get(store);
         },
 
-        save(state) {
-            return idbKeyVal.set(store, state);
+        save(states) {
+            return idbKeyVal.set(store, states);
         }
     };
 };
